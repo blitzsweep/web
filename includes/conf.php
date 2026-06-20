@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 */
 $conf = [
     'sitename'  => 'BlitzSweep',
-    'gtag'      => 'G-L3W99S7JC2'
+    'gtag'      => ''
 ];
 
 ?>
