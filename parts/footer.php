@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-4 col-md-12">
                 <div class="footer-info">
-                    <img class="footer-logo" src="<?php echo $core['footerlogo']; ?>" alt="BlitzSweep">
-                    <p>BlitzSweep is a fast, no-nonsense desktop utility for removing caches, logs, and stale system data on Ubuntu and Debian-based Linux distributions.</p>
+                    <img class="footer-logo" src="<?php echo $core['footerlogo']; ?>" alt="MediaSane">
+                    <p>MediaSane is a fast desktop utility for organizing, renaming, and deduplicating photos and videos on Ubuntu and Debian-based Linux distributions.</p>
                 </div>
             </div>
             <div class="col-lg-8">
@@ -55,7 +55,7 @@
         <div class="foo-tra-txt">
             <div class="row">
                 <div class="col">
-                    <h2 class="footer-txt">BlitzSweep</h2>
+                    <h2 class="footer-txt">MediaSane</h2>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                     <div class="footer-copyright">
                         <div class="footer-wrapper">
                             <div class="d-inline fs-14">&copy; 2026 <span>All rights reserved</span>
-                                <a class="text-primary" title="BlitzSweep - Ubuntu Cleanup GUI" href="/">BlitzSweep</a>
+                                <a class="text-primary" title="MediaSane — Ubuntu Media Rename GUI" href="/">MediaSane</a>
                             </div>
                             <div class="d-lg-inline d-none ms-1 me-1">|</div>
                             <div class="d-lg-inline d-md-block fs-14">

@@ -5,8 +5,8 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-7">
                         <div class="banner-4-txt color--white">
-                            <h2 class="fs-52">Starting with <strong>BlitzWeep</strong> is easy, fast and free </h2>
-                            <p class="fs-18">Fast scans remove caches and logs, clearing wasted space and restoring system responsiveness with safe, controlled cleanup routines</p>
+                            <h2 class="fs-52">Starting with <strong>MediaSane</strong> is easy, fast and free </h2>
+                            <p class="fs-18">Smart renaming uses EXIF dates and prefixes, clearing media chaos and restoring order with safe, preview-driven file management</p>
                             <a href="/download/" class="btn btn-md r-08 btn--purple">
                                 <span class="btn-text">
                                     <span class="anim-txt">Download Now</span>

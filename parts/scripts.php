@@ -1,4 +1,4 @@
-<script type="text/javascript">var websiteurl = "https://blitzsweep.com/";</script>
+<script type="text/javascript">var websiteurl = "https://mediasane.com/";</script>
 <script src="/assets/javascripts/vendors/jquery/jquery.min.js"></script>
 <script src="/assets/javascripts/vendors/bootstrap/bootstrap.min.js"></script>
 <script src="/assets/javascripts/vendors/miscs/miscs.min.js"></script>

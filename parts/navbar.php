@@ -3,8 +3,8 @@
         <div class="wsmobileheader clearfix">
             <span class="mobile-logo">
                 <a href="/">
-                    <img class="lt-img mh-60px m-2" src="/uploads/logos/blitzsweep-dark.png" alt="BlitzSweep">
-                    <img class="dt-img mh-60px m-2" src="/uploads/logos/blitzsweep-light.png" alt="BlitzSweep">
+                    <img class="lt-img mh-60px m-2" src="/uploads/logos/mediasane-dark.png" alt="MediaSane">
+                    <img class="dt-img mh-60px m-2" src="/uploads/logos/mediasane-light.png" alt="MediaSane">
                 </a>
             </span>
             <a id="wsnavtoggle" class="wsanimated-arrow">
@@ -15,13 +15,13 @@
             <div class="wsmainwp clearfix d-flex justify-content-between p-0">
                 <div class="desktop-logo d-none d-md-block">
                     <a href="/" class="logo-black">
-                        <img class="lt-img" src="/uploads/logos/blitzsweep-dark.png" alt="BlitzSweep">
-                        <img class="dt-img" src="/uploads/logos/blitzsweep-light.png" alt="BlitzSweep">
+                        <img class="lt-img" src="/uploads/logos/mediasane-dark.png" alt="MediaSane">
+                        <img class="dt-img" src="/uploads/logos/mediasane-light.png" alt="MediaSane">
                     </a>
                 </div>
                 <div class="desktop-logo d-none d-md-block">
                     <a href="/" class="logo-white">
-                        <img src="/uploads/logos/blitzsweep-light.png" alt="BlitzSweep">
+                        <img src="/uploads/logos/mediasane-light.png" alt="MediaSane">
                     </a>
                 </div>
                 <div class="header-menu w-100">

@@ -153,6 +153,5 @@
         <?php require('parts/cta.php'); ?>
         <?php require('parts/footer.php'); ?>
         <?php require('parts/scripts.php'); ?>
-    </div>
 </body>
 </html>
