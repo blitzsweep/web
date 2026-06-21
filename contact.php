@@ -10,7 +10,7 @@
                         <div class="contacts-info">
                             <span class="module-subtitle color--purple">Contact Us</span>
                             <h2 class="fs-60">Get in touch <br>with our team </h2>
-                            <p class="fs-18">Want to learn more about MediaSane, report an issue, or suggest improvements? Let us know what you are looking for and we will get back to you right away.</p>
+                            <p class="fs-18">Want to learn more about BlitzSweep, report an issue, or suggest improvements? Let us know what you are looking for and we will get back to you right away.</p>
                             <p class="fs-18">Your feedback drives our platform forward, so don't hesitate to reach out with any questions, bugs, or bright ideas. We're here to listen, respond quickly, and make your experience better every single day.</p>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                                 <div class="col-md-12 input-subject">
                                     <select id="msg-subject" class="form-select subject" name="msg-subject" aria-label="Default select example">
                                         <option selected>This question is about...</option>
-                                        <option>MediaSane Project</option>
+                                        <option>BlitzSweep Project</option>
                                         <option>Using Application</option>
                                         <option>Troubleshooting</option>
                                         <option>Backup/Restore</option>
@@ -70,8 +70,8 @@
                     <div id="cb-1-1" class="col">
                         <div class="contact-box">
                             <span class="main-font fs-24">Contribute & Collaborate</span>
-                            <p>Enhance MediaSane's capabilities for the global Linux community. Join developers, testers, and documentation experts in building the ultimate media rename tool.</p>
-                            <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/mediasane/app/blob/main/CONTRIBUTING.md" class="btn btn-sm r-08 btn--tra-black">
+                            <p>Enhance BlitzSweep's capabilities for the global Linux community. Join developers, testers, and documentation experts in building the ultimate system cleanup tool.</p>
+                            <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/blitzsweep/app/blob/main/CONTRIBUTING.md" class="btn btn-sm r-08 btn--tra-black">
                                 <span class="btn-text">
                                     <span class="anim-txt">Fork & Contribute</span>
                                     <span class="anim-txt">Fork & Contribute</span>
@@ -83,7 +83,7 @@
                         <div class="contact-box">
                             <span class="main-font fs-24">Explore the Source</span>
                             <p>Dive into the clean, documented Python and PyQt6 codebase. Perfect for developers looking to learn or integrate features into their own projects.</p>
-                            <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/mediasane/app/tree/main" class="btn btn-sm r-08 btn--tra-black">
+                            <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/blitzsweep/app/tree/main" class="btn btn-sm r-08 btn--tra-black">
                                 <span class="btn-text">
                                     <span class="anim-txt">View Source Code</span>
                                     <span class="anim-txt">View Source Code</span>
@@ -94,7 +94,7 @@
                     <div id="cb-1-3" class="col">
                         <div class="contact-box">
                             <span class="main-font fs-24">FAQs & Support</span>
-                            <p>Find quick answers to common questions about installation, usage, safety features, and troubleshooting. Get the most out of MediaSane safely and efficiently.</p>
+                            <p>Find quick answers to common questions about installation, usage, safety features, and troubleshooting. Get the most out of BlitzSweep safely and efficiently.</p>
                             <a href="/faq/" class="btn btn-sm r-08 btn--tra-black">
                                 <span class="btn-text">
                                     <span class="anim-txt">Browse FAQs</span>

@@ -8,17 +8,17 @@
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9 col-xl-8">
                         <div class="section-title title-01 mb-50">
-                            <h2 class="fs-68">Download <strong>MediaSane</strong></h2>
-                            <p class="fs-18">Streamline your photo/video organization with MediaSane - the intuitive GUI renaming tool that extracts EXIF dates and applies clean naming while keeping your media collection structured.</p>
+                            <h2 class="fs-68">Download <strong>BlitzSweep</strong></h2>
+                            <p class="fs-18">Streamline your Ubuntu/Debian system maintenance with BlitzSweep - the intuitive GUI cleanup tool that removes unnecessary files, caches, and logs while keeping your system running smoothly.</p>
                             <div class="btns-group">
-                                <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/mediasane/app/releases/latest" class="btn btn-md r-08 btn--purple">
+                                <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/blitzsweep/app/releases/latest" class="btn btn-md r-08 btn--purple">
                                     <i class="fa-solid fa-download me-2"></i>
                                     <span class="btn-text">
                                         <span class="anim-txt">Download Latest Version</span>
                                         <span class="anim-txt">Download Latest Version</span>
                                     </span>
                                 </a>
-                                <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/mediasane/app/tree/main" class="btn btn-md r-08 btn--tra-black hover--black">
+                                <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/blitzsweep/app/tree/main" class="btn btn-md r-08 btn--tra-black hover--black">
                                     <i class="fa-brands fa-github me-2"></i>
                                     <span class="btn-text">
                                         <span class="anim-txt">View GitHub Repository</span>
@@ -38,7 +38,7 @@
                         <div class="row justify-content-center">
                             <div class="col">
                                 <div class="download-img wow">
-                                    <img class="img-fluid" src="/uploads/pages/download/screen.png" alt="MediaSane GUI Interface showing media rename preview">
+                                    <img class="img-fluid" src="/uploads/pages/download/screen.png" alt="BlitzSweep GUI Interface showing help options">
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                     <div class="col-lg-10">
                         <div class="section-title title-01 mb-50">
                             <h2 class="fs-52">Installation Guide</h2>
-                            <p class="fs-18">Select your preferred installation approach to get MediaSane running on your system. MediaSane is optimized for Ubuntu 22.04, 23.04, 23.10, 24.04, 24.10 and 26.04. Our installation process includes comprehensive dependency management, automatic configuration, and post-installation verification to ensure a smooth setup experience.</p>
+                            <p class="fs-18">Select your preferred installation approach to get BlitzSweep running on your system. BlitzSweep is optimized for Ubuntu 22.04, 23.04, 23.10, 24.04, 24.10 and 26.04. Our installation process includes comprehensive dependency management, automatic configuration, and post-installation verification to ensure a smooth setup experience.</p>
                         </div>
                         <div class="installation-methods r-16 mb-50">
                             <div class="method-tabs">
@@ -58,52 +58,52 @@
                                 </div>
                                 <div class="tab-content border-start border-end border-bottom bg--white py-5 px-4">
                                     <div class="tab-pane fade show active" id="deb-install">
-                                        <h4 class="title-line-left fw-medium fs-5">Install from DEB Package (Recommended)</h4>
+                                        <h4 class="title-line-left fw-medium fs-6">Install from DEB Package (Recommended)</h4>
                                         <p class="mb-25">Download the latest DEB package and install using dpkg. This method automatically handles dependencies.</p>
                                         <div class="command-block mb-30">
-                                            <h5 class="h6 fw-bold">1. Download the MediaSane package</h5>
-                                            <p class="text-muted fs-14 mb-10">Downloads the latest MediaSane DEB package directly from GitHub releases repository (v1.2.5)</p>
+                                            <h5 class="h6 fw-bold">1. Download the BlitzSweep package</h5>
+                                            <p class="text-muted fs-14 mb-10">Downloads the latest BlitzSweep DEB package directly from GitHub releases repository (v5.1.8)</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>wget https://github.com/mediasane/app/releases/download/v1.2.5/mediasane_1.2.5_all.deb</code></pre>
+                                                <pre class="language-bash m-0"><code>wget https://github.com/blitzsweep/app/releases/download/v5.1.8/blitzsweep_5.1.8_all.deb</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">2. Install the DEB package</h5>
-                                            <p class="text-muted fs-14 mb-10">Uses dpkg package manager with sudo privileges to install MediaSane system-wide on your Ubuntu system</p>
+                                            <p class="text-muted fs-14 mb-10">Uses dpkg package manager with sudo privileges to install BlitzSweep system-wide on your Ubuntu system</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>sudo dpkg -i mediasane_1.2.5_all.deb</code></pre>
+                                                <pre class="language-bash m-0"><code>sudo dpkg -i blitzsweep_5.1.8_all.deb</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">3. Fix missing dependencies</h5>
-                                            <p class="text-muted fs-14 mb-10">Automatically resolves any missing system dependencies that MediaSane requires for proper functionality</p>
+                                            <p class="text-muted fs-14 mb-10">Automatically resolves any missing system dependencies that BlitzSweep requires for proper functionality</p>
                                             <div class="code-box r-10 overflow-hidden">
                                                 <pre class="language-bash m-0"><code>sudo apt-get install -f</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block">
-                                            <h5 class="h6 fw-bold">4. Launch MediaSane</h5>
-                                            <p class="text-muted fs-14 mb-10">Starts the MediaSane application directly from terminal or search for it in your system application menu</p>
+                                            <h5 class="h6 fw-bold">4. Launch BlitzSweep</h5>
+                                            <p class="text-muted fs-14 mb-10">Starts the BlitzSweep application directly from terminal or search for it in your system application menu</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>mediasane</code></pre>
+                                                <pre class="language-bash m-0"><code>blitzsweep</code></pre>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="source-install">
-                                        <h4 class="title-line-left fw-medium fs-5">Install from Source</h4>
+                                        <h4 class="title-line-left fw-medium fs-6">Install from Source</h4>
                                         <p class="mb-25">For developers or users who want the latest features. Requires Python 3.12+ and pip.</p>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">1. Clone the repository</h5>
-                                            <p class="text-muted fs-14 mb-10">Downloads the complete MediaSane source code repository from the official GitHub project page</p>
+                                            <p class="text-muted fs-14 mb-10">Downloads the complete BlitzSweep source code repository from the official GitHub project page</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>git clone https://github.com/mediasane/app.git</code></pre>
+                                                <pre class="language-bash m-0"><code>git clone https://github.com/blitzsweep/app.git</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">2. Navigate to directory</h5>
-                                            <p class="text-muted fs-14 mb-10">Changes your current working directory to the MediaSane source code folder you just downloaded</p>
+                                            <p class="text-muted fs-14 mb-10">Changes your current working directory to the BlitzSweep source code folder you just downloaded</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>cd mediasane</code></pre>
+                                                <pre class="language-bash m-0"><code>cd blitzsweep</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
@@ -115,9 +115,9 @@
                                         </div>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">4. Install system dependencies</h5>
-                                            <p class="text-muted fs-14 mb-10">Installs all required system packages including Python Qt6 GUI framework bindings and EXIF tool</p>
+                                            <p class="text-muted fs-14 mb-10">Installs all required system packages including Python Qt6 GUI framework bindings and trash utilities</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>sudo apt install -y python3-pyqt6 exiftool</code></pre>
+                                                <pre class="language-bash m-0"><code>sudo apt install -y python3-pyqt6 python3-pyqt6.qt6-tools trash-cli</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
@@ -135,17 +135,17 @@
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
-                                            <h5 class="h6 fw-bold">7. Run MediaSane</h5>
-                                            <p class="text-muted fs-14 mb-10">Starts the MediaSane application directly from Python source code without system-wide installation</p>
+                                            <h5 class="h6 fw-bold">7. Run BlitzSweep</h5>
+                                            <p class="text-muted fs-14 mb-10">Starts the BlitzSweep application directly from Python source code without system-wide installation</p>
                                             <div class="code-box r-10 overflow-hidden">
                                                 <pre class="language-bash m-0"><code>python main.py</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block">
                                             <h5 class="h6 fw-bold">8. Create desktop entry (Optional)</h5>
-                                            <p class="text-muted fs-14 mb-10">Adds MediaSane to your system application menu for easy launching without using terminal commands</p>
+                                            <p class="text-muted fs-14 mb-10">Adds BlitzSweep to your system application menu for easy launching without using terminal commands</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>sudo cp mediasane.desktop /usr/share/applications/</code></pre>
+                                                <pre class="language-bash m-0"><code>sudo cp blitzsweep.desktop /usr/share/applications/</code></pre>
                                             </div>
                                         </div>
                                     </div>
@@ -164,7 +164,7 @@
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
-                                    <p>Smart date resolution extracts EXIF metadata and applies clean naming while preserving file integrity throughout the renaming process</p>
+                                    <p>Smart cleanup algorithms identify unnecessary files while preserving system stability and user data integrity throughout the process</p>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +176,7 @@
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
-                                    <p>Multi-layer safety features including dry-run preview, stop control, and temp-file finalization prevent accidental data loss during renaming</p>
+                                    <p>Multi-layer safety features including dry-run mode, itemized previews, and emergency stop functionality prevent accidental data loss</p>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                                     </div>
                                 </div>
                                 <div class="fbox-txt">
-                                    <p>Automated duplicate detection via SHA-256 hashing with time budgets and live progress tracking for efficient media organization oversight</p>
+                                    <p>Automated system with root task handling via pkexec and live progress tracking for optimized cleanup efficiency and resource oversight</p>
                                 </div>
                             </div>
                         </div>
@@ -197,20 +197,20 @@
                 <div class="row justify-content-center">
                     <div class="col-auto">
                         <div class="block-info wow">
-                            <p class="main-font fs-18">Track latest improvements and system compatibility updates in the <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/mediasane/app/releases" class="color--purple">Release Notes</a></p>
+                            <p class="main-font fs-18">Track latest improvements and system compatibility updates in the <a rel="noreferrer nofollow noopener" target="_blank" href="https://github.com/blitzsweep/app/releases" class="color--purple">Release Notes</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="bg--cloud py-120 faqs-1 faqs-section division">
+        <section class="bg--cloud py-120 mb-80 faqs-1 faqs-section division">
             <div class="container-xxl">
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <div class="faq-1-title">
                             <span class="module-subtitle">Common Questions</span>
                             <h2 class="fs-52">Frequently Asked Questions</h2>
-                            <p class="fs-17">Find immediate answers to frequently asked questions about MediaSane's installation process, daily operational usage guidelines, advanced feature implementation, and comprehensive system compatibility requirements for different operating systems and desktop environments.</p>
+                            <p class="fs-17">Find immediate answers to frequently asked questions about BlitzSweep's installation process, daily operational usage guidelines, advanced feature implementation, and comprehensive system compatibility requirements for different Linux distributions and desktop environments.</p>
                             <a href="/faq/" class="btn r-08 btn--purple">
                                 <span class="btn-text">
                                     <span class="anim-txt">View All FAQs</span>
@@ -224,10 +224,10 @@
                             <ul class="accordion">
                                 <li class="accordion-item is-active wow">
                                     <div class="accordion-thumb">
-                                        <span class="main-font fs-20">System requirements for MediaSane</span>
+                                        <span class="main-font fs-20">System requirements for BlitzSweep</span>
                                     </div>
                                     <div class="accordion-panel">
-                                        <p>MediaSane requires Python 3.12+, PyQt6, and Linux (Ubuntu/Debian recommended). ExifTool is optional but recommended. Should run on macOS/Windows with PyQt6 installed.</p>
+                                        <p>BlitzSweep requires Ubuntu 22.04+ or Debian-based systems with Python 3.12+, PyQt6, and standard system utilities. Minimum 2GB RAM recommended for optimal performance during cleanup operations.</p>
                                     </div>
                                 </li>
                                 <li class="accordion-item wow">
@@ -235,30 +235,30 @@
                                         <span class="main-font fs-20">Safety and data protection features</span>
                                     </div>
                                     <div class="accordion-panel">
-                                        <p>MediaSane includes multiple safety layers: dry-run preview mode, duplicate detection by content hash, stop control, and safe temp-file moves. All operations are previewed before execution.</p>
+                                        <p>BlitzSweep includes multiple safety layers: dry-run preview mode, per-item selection, user confirmation prompts, and emergency stop functionality. All trash operations use system trash mechanisms with recovery options.</p>
                                     </div>
                                 </li>
                                 <li class="accordion-item wow">
                                     <div class="accordion-thumb">
-                                        <span class="main-font fs-20">Date resolution and EXIF handling</span>
+                                        <span class="main-font fs-20">Root privileges and permissions</span>
                                     </div>
                                     <div class="accordion-panel">
                                         <ul class="simple-list">
                                             <li class="list-item">
-                                                <p>Smart date extraction: filename date → EXIF → mtime → today for comprehensive coverage across all media files</p>
+                                                <p>Standard user cleanup requires no root access - handles user cache, browser data, and temporary files without elevated privileges</p>
                                             </li>
                                             <li class="list-item">
-                                                <p>Uses exiftool for accurate metadata extraction with fallback mechanisms when EXIF data is unavailable</p>
+                                                <p>System-level tasks (journal cleanup, kernel removal, package pruning) use pkexec for temporary privilege escalation with user confirmation</p>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="accordion-item wow">
                                     <div class="accordion-thumb">
-                                        <span class="main-font fs-20">Supported file formats and compatibility</span>
+                                        <span class="main-font fs-20">Supported distributions and compatibility</span>
                                     </div>
                                     <div class="accordion-panel">
-                                        <p>Images: jpg, jpeg, png, gif, tif, tiff, bmp, webp, heic, heif. Videos: mp4, mov, m4v, avi, mkv, 3gp, webm. Automatic detection with configurable prefixes.</p>
+                                        <p>Officially supports Ubuntu 22.04+, 23.04+, 24.04+, 26.04+ and Debian 11+. Community-tested on Linux Mint, Pop!_OS, elementary OS, and Zorin OS with full functionality across most Debian derivatives.</p>
                                     </div>
                                 </li>
                                 <li class="accordion-item acc-last-item wow">
@@ -271,7 +271,7 @@
                                                 <p>Check the GitHub Issues page for known problems and community solutions to common installation and runtime challenges</p>
                                             </li>
                                             <li class="list-item">
-                                                <p>Use Dry-Run mode first to preview operations and assess hashing costs before executing large folder renames</p>
+                                                <p>Enable verbose logging in preferences for detailed operation tracking and submit debug information when reporting technical issues</p>
                                             </li>
                                         </ul>
                                     </div>
