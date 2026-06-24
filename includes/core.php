@@ -55,7 +55,8 @@ if(!function_exists('getDataSegment'))
         {
             case 'contact':
                 return [
-                    'title'         => 'Contact BlitzSweep - Ubuntu Cleanup Tool Support & Feedback',
+                    'title'         => 'Contact BlitzSweep - Ubuntu Cleanup Tool Support and Feedback',
+                    'breadcrumb'    => 'Contact',
                     'description'   => 'Get in touch with the BlitzSweep team for support, feature requests, bug reports, or general questions about the Ubuntu/Debian cleanup GUI. Your feedback helps improve BlitzSweep’s performance and usability.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-contact.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/contact/',
@@ -66,7 +67,8 @@ if(!function_exists('getDataSegment'))
                 
             case 'download':
                 return [
-                    'title'         => 'Download BlitzWeep – Fast Ubuntu & Debian System Cleaner',
+                    'title'         => 'Download BlitzWeep – Fast Ubuntu and Debian System Cleaner',
+                    'breadcrumb'    => 'Download',
                     'description'   => 'Download BlitzWeep, a powerful GUI tool to clean caches, logs, old kernels, Snap and Flatpak data on Ubuntu and Debian systems. Safe, fast and efficient.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-download.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/download/',
@@ -77,7 +79,8 @@ if(!function_exists('getDataSegment'))
                 
             case 'faq':
                 return [
-                    'title'         => 'Frequently Asked Questions',
+                    'title'         => 'F.A.Q About BlitzSweep System Cleaner GUI',
+                    'breadcrumb'    => 'F.A.Q',
                     'description'   => 'Find answers about BlitzSweep, the Ubuntu system cleaner GUI. Learn how dry-run works, what files are removed, how root cleanup works, and how to use Snap, Flatpak, and log cleanup safely.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-faq.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/faq/',
@@ -88,8 +91,9 @@ if(!function_exists('getDataSegment'))
 
             case 'home':
                 return [
-                    'title'         => 'Ubuntu & Debian System Cleaner GUI',
-                    'description'   => 'BlitzSweep is a powerful Ubuntu and Debian cleanup tool with a modern GUI. Remove caches, logs, trash, old kernels, Snap &amp; Flatpak leftovers with dry-run preview and root-safe execution.',
+                    'title'         => 'Ubuntu and Debian System Cleaner GUI',
+                    'breadcrumb'    => 'BlitzSweep',
+                    'description'   => 'BlitzSweep is a powerful Ubuntu and Debian cleanup tool with a modern GUI. Remove caches, logs, trash, old kernels, Snap and Flatpak leftovers with dry-run preview and root-safe execution.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-home.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/',
                     'navbar'        => 'navbar-dark',
@@ -99,7 +103,8 @@ if(!function_exists('getDataSegment'))
                 
             case 'legal-notices':
                 return [
-                    'title'         => 'Legal Notices',
+                    'title'         => 'Legal Information and Compliance Notice',
+                    'breadcrumb'    => 'Legal Notices',
                     'description'   => 'Discover the legal notices for BlitzSweep, including information on intellectual property rights, disclaimers, and compliance with relevant regulations and laws.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-legal-notices.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/legal-notices/',
@@ -110,7 +115,8 @@ if(!function_exists('getDataSegment'))
                 
             case 'privacy-policy':
                 return [
-                    'title'         => 'Privacy Policy',
+                    'title'         => 'Privacy Policy and Data Protection',
+                    'breadcrumb'    => 'Privacy Policy',
                     'description'   => 'This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-privacy-policy.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/privacy-policy/',
@@ -121,7 +127,8 @@ if(!function_exists('getDataSegment'))
 
             case 'terms-of-use':
                 return [
-                    'title'         => 'Terms of Use',
+                    'title'         => 'Terms of Service and User Agreement',
+                    'breadcrumb'    => 'Terms of Use',
                     'description'   => 'This page thoroughly explains the terms and conditions by which you may access and use our online and/or mobile services, website, and any related services provided on or in connection with our website.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-terms-of-use.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/terms-of-use/',
@@ -133,6 +140,7 @@ if(!function_exists('getDataSegment'))
             default:
                 return [
                     'title'         => 'Error 404',
+                    'breadcrumb'    => '404',
                     'description'   => 'Page not found. The link may be broken, moved, or removed. Return to BlitzSweep home or explore our site to find the content you need quickly and safely online.',
                     'thumbnail'     => 'https://'.$conf['domain'].'/uploads/thumbnails/media-404.webp',
                     'canonical'     => 'https://'.$conf['domain'].'/404/',

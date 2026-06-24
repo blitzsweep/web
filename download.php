@@ -62,16 +62,16 @@
                                         <p class="mb-25">Download the latest DEB package and install using dpkg. This method automatically handles dependencies.</p>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">1. Download the BlitzSweep package</h5>
-                                            <p class="text-muted fs-14 mb-10">Downloads the latest BlitzSweep DEB package directly from GitHub releases repository (v5.1.8)</p>
+                                            <p class="text-muted fs-14 mb-10">Downloads the latest BlitzSweep DEB package directly from GitHub releases repository (v5.1.9)</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>wget https://github.com/blitzsweep/app/releases/download/v5.1.8/blitzsweep_5.1.8_all.deb</code></pre>
+                                                <pre class="language-bash m-0"><code>wget https://github.com/blitzsweep/app/releases/download/v5.1.9/blitzsweep_5.1.9_all.deb</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">2. Install the DEB package</h5>
                                             <p class="text-muted fs-14 mb-10">Uses dpkg package manager with sudo privileges to install BlitzSweep system-wide on your Ubuntu system</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>sudo dpkg -i blitzsweep_5.1.8_all.deb</code></pre>
+                                                <pre class="language-bash m-0"><code>sudo dpkg -i blitzsweep_5.1.9_all.deb</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
